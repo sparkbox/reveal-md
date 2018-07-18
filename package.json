@@ -1,0 +1,21 @@
+{
+  "name": "reveal-md-sparkbox",
+  "version": "1.0.0",
+  "description": "Reveal Markdown starter for Sparkbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "reveal-md slides.md",
+    "dev": "reveal-md slides.md -w",
+    "build": "npm run sass",
+    "sass": "node-sass src/sass/sparkbox.scss dist/css/sparkbox.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reveal-md": "^2.0.6"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
